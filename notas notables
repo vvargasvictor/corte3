@@ -1,0 +1,23 @@
+
+const int num_alumnos = 8;  // Número de alumnos
+float notas[num_alumnos];   // Arreglo para almacenar las notas
+
+int notables = 0;           // Contador de notas notables
+
+// Pidiendo las notas y almacenándolas en el arreglo
+for (int i = 0; i < num_alumnos; i++) {
+    cout << "Ingrese la nota del alumno " << i+1 << ": ";
+    cin >> notas[i];
+}
+
+// Buscando las notas notables
+for (int i = 0; i < num_alumnos; i++) {
+    if (notas[i] >= 7 && notas[i] < 9) {
+        notables++;
+    }
+}
+
+// Imprimiendo el resultado
+cout << "El número de notas notables es: " << notables << endl;
+
+return 0;
