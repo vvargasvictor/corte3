@@ -1,4 +1,4 @@
-# cortesistemasg3grupo
+# Lectura100NumMediaPosNega 5.8
 
 #include <iostream>
 using namespace std;
@@ -51,4 +51,3 @@ int main() {
     
     return 0;
 }
-
