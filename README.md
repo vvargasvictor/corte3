@@ -30,7 +30,7 @@ int main() {
         if (numeros[i] < 0) {
             suma_negativos += numeros[i];
             contador_negativos++;
-        }
+        }.
     }
     
     // Calculando la media de los números positivos
